@@ -1,0 +1,169 @@
+html {
+	font-family: "aakar,medium", "Bitstream Charter", sans-serif; 
+	display: flex;
+	/*border: 7px red solid;*/
+	/*padding: 5%;*/
+	padding-top: 0%;
+	/*overflow: auto;*/
+
+}
+
+.avn {
+	/*border: 4px orange double;*/
+	display: flex;
+	margin-top: 0px;
+	margin-left: 0px;
+	flex-flow: row nowrap;
+	/*width: auto;
+	padding: 0.5% ;
+	margin-top: 0em;*/
+	justify-content: space-around;
+	align-content: space-around;
+	align-items: center;
+	justify-self: center;
+	align-self: center;
+	-webkit-transition: all 6s cubic-bezier(0,0,1,1);
+	   -moz-transition: all 6s cubic-bezier(0,0,1,1);
+	    -ms-transition: all 6s cubic-bezier(0,0,1,1);
+	     -o-transition: all 6s cubic-bezier(0,0,1,1);
+	transition: all 6s cubic-bezier(0,0,1,1);
+}
+
+
+.avn img {
+	width: 100px;
+	height: 100px;
+	background-position:top 2% left 25%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0%; 
+	padding: 1%;
+	border: purple solid 1px;
+	border-radius: 0 0 12% 0;
+	/*box-shadow: 10px 10px #888, inset 10px 10px 5px #333;*/
+}
+
+nav ul{
+	display: inline-flex;
+	padding: 0px;
+	margin-top: 0%;
+    /*margin-right: 10px;
+    justify-content: space-around;
+    align-content: space-around;*/
+    list-style: none;
+    /*border: green 3px solid;*/
+}
+
+nav li{
+	margin: 1mm;
+    padding: 1mm;
+}
+
+li {
+	margin: 1px;
+	padding: 1px;
+}
+
+nav li:first-child{
+	margin-top: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	/*border-radius: 20px !important;*/
+}
+
+body {
+	/*background-image: url(Images/creative1.png);*/
+	animation: change;
+	animation-duration: 100s;
+	animation-delay: .14s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: ease-in-out !important;
+	/*border: 7px brown solid;*/
+	margin-top: 0%;
+	margin-left: 0%;
+	/*padding-left: 0%;*/
+	padding-top: 0%;
+
+}
+
+
+li img{
+	margin-top: 0%;
+	margin-left: 0%;
+	height: 200px;
+	width: 200px;
+}
+
+/*nav{
+	margin-bottom: 1in;
+	border: 4px blue solid;
+}*/
+
+footer {
+	margin-top: 1in;
+	margin-left: 8em;
+	padding-top: 2em;
+	padding-left: 4px;
+	/*border: 5px solid gold;*/
+	color: rgba(190,255,77,1);
+	font-weight: bolder;
+	font-size: large;
+	fontw-style: italic;
+	opacity: 1;
+}
+
+details {
+	margin: 4%;
+	padding: 2px;
+}
+
+summary{
+	background-color: grey;
+}
+
+a:link {
+	color: white;
+	font-size: large;
+	font-weight: bolder;
+	text-decoration: underline wavy violet;
+	opacity: 0.9;
+}
+
+a:visited {
+    color: #201;
+    border-bottom: 1px solid #fde; 
+    background-color: #cab;
+}
+
+a:hover {
+    color: #120;
+    border-bottom: 1px solid #efd;
+    background-color: #bca;
+}
+
+a {
+	background-color: grey;
+}
+
+@keyframes change {
+	00% 	{background-image: url(Images/creative1.jpg);}
+	6.25% 	{background-image: url(Images/creative2.png);}
+	12.5% 	{background-image: url(Images/creative3.png);}
+	18.75% 	{background-image: url(Images/creative4.png);}
+	25% 	{background-image: url(Images/creative5.png);}
+	31.25%	{background-image: url(Images/creative6.png);}
+	37.5%	{background-image: url(Images/creative7.png);}
+	43.75%	{background-image: url(Images/creative8.png);}
+	50%		{background-image: url(Images/creative9.png);}
+	56.25%	{background-image: url(Images/creative10.png);}
+	62.5%	{background-image: url(Images/creative11.png);}
+	68.75%	{background-image: url(Images/creative12.png);}
+	75%		{background-image: url(Images/creative13.png);}
+	81.25%	{background-image: url(Images/creative14.png);}
+	87.5%	{background-image: url(Images/creative15.png);}
+	93.75%	{background-image: url(Images/creative16.png);}
+	100% 	{background-image: url(Images/creative17.png);}	
+}
+
